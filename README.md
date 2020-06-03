@@ -1,10 +1,12 @@
 # NLW
 Next Level Week training by Rocketseat
 
-its necessary to start:
+its necessary to start: 
 
-To create a react template: npx create-react-app web --template=typescript 
-* check if your node is updated: choco upgrade nodejs-lts
+- To create a react template: npx create-react-app web --template=typescript 
+    * check if your node is updated: choco upgrade nodejs-lts
+
+ execute sqlite extention ctrl + shift + p -> find sqlite + folder name.   
 
 //Rota: Endereço completo da requisição (http://localhost:3333/users)
 //Recurso: Qual entidade estamos acessando do sistema. = usuarios (/user)
