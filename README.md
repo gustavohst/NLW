@@ -6,6 +6,9 @@ its necessary to start:
 - To create a react template: npx create-react-app web --template=typescript 
     * check if your node is updated: choco upgrade nodejs-lts
 
+- To create tables: 
+npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+
  execute sqlite extention ctrl + shift + p -> find sqlite + folder name.   
 
 //Rota: Endereço completo da requisição (http://localhost:3333/users)
