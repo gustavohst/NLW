@@ -9,6 +9,8 @@ its necessary to start:
 - To create tables: 
 npx knex migrate:latest --knexfile knexfile.ts migrate:latest
 
+
+
  execute sqlite extention ctrl + shift + p -> find sqlite + folder name.   
 
 //Rota: Endereço completo da requisição (http://localhost:3333/users)
@@ -26,3 +28,15 @@ npx knex migrate:latest --knexfile knexfile.ts migrate:latest
 // Request param: Parametros que vem na propria rota que identificam um recurso.
 // Query param: Parametros que vem na propria rota geralmente opcionais para filtros, paginação
 // Request body: Parametros para cruação/atualização de informções.
+
+-Start mobile:
+
+expo init : create mobile expo(install)
+
+npm start : inside the mobile expo folder
+
+Quem estiver com problemas com fontes no expo(roboto, Ubuntu e a de ícone) e estiver usando Windows, tenta essa solução: abra o Powershell como Admin, depois digite o seguinte comando: Set-ExecutionPolicy Unrestricted. Aparecerá uma mensagem perguntando se você quer aceitar ou negar. Escreva A e aperte enter para ele aplicar para todo o sistema
+
+Depois navegue até sua pasta do mobile e rode os comandos novamente: expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+Depois reinicie o expo. Isso foi a única coisa que resolveu meu problema com fontes no Windows
